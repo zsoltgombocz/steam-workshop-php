@@ -1,0 +1,10 @@
+<?php
+
+namespace SteamWorkshop\Tests;
+
+use PHPUnit\Framework\TestCase as BaseTestCase;
+
+abstract class TestCase extends BaseTestCase
+{
+    //
+}

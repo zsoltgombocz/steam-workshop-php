@@ -1,16 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "zsoltgombocz/steam-workshop-php",
+    "description": "A lightweight PHP client for fetching Steam Workshop item and collection metadata.",
     "keywords": [
-        ":vendor_name",
-        ":package_slug"
+        "steam_workshop",
+        "php"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
-    "license": "MIT",
+    "homepage": "https://github.com/zsoltgombocz/steam-workshop-php",
+    "license": "LGPL-2.1",
+    "type": "library",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Zsolt Gömböcz",
+            "email": "zsolt.gombocz00@gmail.com",
             "role": "Developer"
         }
     ],
@@ -18,28 +19,24 @@
         "php": "^8.4"
     },
     "require-dev": {
-        :require_dev_testing,
-        :require_dev_codestyle,
+        "pestphp/pest": "^4.4",
         "spatie/ray": "^1.28"
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src"
+            "SteamWorkshop\\Src\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "SteamWorkshop\\Tests\\": "tests"
         }
     },
-    "scripts": {
-        :scripts_testing,
-        :scripts_codestyle
-    },
+    "scripts": {},
     "config": {
         "sort-packages": true,
         "allow-plugins": {
-            :plugins_testing,
+            "pestphp/pest-plugin": true,
             "phpstan/extension-installer": true
         }
     },

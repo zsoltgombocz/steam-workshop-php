@@ -1,7 +1,5 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace SteamWorkshop\Src;
 
-class SkeletonClass
-{
-}
+class SkeletonClass {}
