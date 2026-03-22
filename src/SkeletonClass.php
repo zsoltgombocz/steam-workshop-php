@@ -2,6 +2,4 @@
 
 namespace SteamWorkshop\Src;
 
-class SkeletonClass
-{
-}
+class SkeletonClass {}
